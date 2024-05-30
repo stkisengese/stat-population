@@ -12,6 +12,12 @@ This Program is written in python, calculates basic statistics (average, median,
 - Presents statistics in a user-friendly format.
 - Includes unit tests for core functionalities.
 
+## Unit Tests:
+
+The script includes unit tests implemented in test_math_skills.py. You can run the tests using:
+```bash
+    python3 test_math_skills.py
+```
 ## Usage:
 ```bash
     python3 math_skills.py <filename.txt>
@@ -47,14 +53,7 @@ Contributions are welcomed to improve this script. Feel free to fork the reposit
 
 ## License:
 MIT
-(see LICENSE file for details).
-
-## Unit Tests:
-
-The script includes unit tests implemented in test_math_skills.py. You can run the tests using:
-```bash
-python3 test_math_skills.py
-```
+(see LICENSE file for details).`
 
 ## Author(s):
 [skisenge](https://learn.zone01kisumu.ke/git/skisenge/math-skills.git)
