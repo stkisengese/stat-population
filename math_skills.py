@@ -1,5 +1,6 @@
 import sys
 from statistics import mean, median, pvariance, pstdev
+from math import floor
 
 def read_population_data(filename):
     """This function reads population data from a text file."""
@@ -25,11 +26,11 @@ def calculate_statistics(data):
     
     if not data:
         print("No data to calculate statistics.")
-        sys.exit(1)
+        return
         
     return {
-        'average': round(mean(data)),
-        'median': round(median(data)),
+        'average': floor(mean(data) + 0.5),
+        'median': floor(median(data) + 0.5),
         'variance': round(pvariance(data)),
         'std_dev': round(pstdev(data))
     }    
