@@ -41,7 +41,7 @@ Each line in the file should contain a valid integer or floating-point number re
 Make sure you have `Python 3.x` installed on your system. You can check by running `python3 --version` in your terminal.
 Download the folder containing the program.
 ```bash
-    git clone https://github.com/stkisengese/math-skills
+    git clone https://github.com/stkisengese/stat-population
 ```
 ## Dependencies:
 
